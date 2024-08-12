@@ -562,9 +562,7 @@ form select option {
 
 /* footer section */
 .footer{
-width: 100%;
- background: rgba   (255, 255, 255, 0.1);
- 
+ background: rgb(34, 34, 34);
 }
 
 .footer_container{
