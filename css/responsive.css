@@ -38,13 +38,44 @@
     .hero_short_card1 {
         top: 10%;
         left: 53%;
+        width: 140px;
     }
 
     .hero_short_card2 {
         gap: 10px;
 
     }
+    .hero_short_box h2{
+        font-size: 16px !important;
+    }
+    .hero_short_right{
+        font-size: 14px !important;
+    }
+    .hero_short_box p{
+        font-size: 12px !important;
+    }
 
+    /* mobile fixed letter update */
+    .hero_right_content img{
+        width: 267px;
+    }
+    .hero_style_text{
+        font-size: 45px;
+    }
+    /* .... */
+    .excercise_name {
+        font-size: 13px;
+    }
+    /* ....... */
+    .container_first,
+    .container_second,
+    .container_third{
+        width: 280px;
+    }
+    .meet_description{
+        width: 90%;
+        margin-top: 10px;
+    }
     /* habits seciton responsive */
     .habits_section {
         margin-top: 35px;
@@ -97,10 +128,11 @@
     /* excercise gallery */
     .training_head_title {
         width: 75%;
+        font-size: 25px;
     }
 
     .training_excercise_description {
-        width: 85%;
+        width: 97%;
         margin-top: 15px;
     }
 
@@ -133,7 +165,7 @@
 
     th,
     td {
-        padding: 12px 40px;
+        padding: 10px 31px;
     }
 
     .height_weight input,
@@ -206,9 +238,10 @@
         width: 100%;
     }
 
-    .hero_title {
-        font-size: 76px;
+    .hero_title,.hero_style_text {
+        font-size: 56px;
     }
+    
 
     .btn-primary {
         padding: 8px 15px;
@@ -216,14 +249,14 @@
 
     .hero_short_card1,
     .hero_short_card2 {
-        width: 170px;
+        width: 160px;
         height: 72px;
         padding: 0px 5px;
 
     }
 
     .hero_short_card1 {
-        top: 12%;
+        top: 10%;
         left: 65%;
     }
 
@@ -291,7 +324,7 @@
 
     th,
     td {
-        padding: 12px 80px;
+        padding: 12px 60px;
     }
 
     .height_weight input,
