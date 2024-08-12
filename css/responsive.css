@@ -1,0 +1,494 @@
+/* mobile responsive media query */
+@media screen and (max-width: 576px) {
+    .menubar {
+        display: none;
+    }
+
+    .hambar {
+        display: block;
+        margin-top: 6px;
+    }
+
+    /* hero section responsive*/
+    .hero {
+        display: block;
+    }
+
+    .hero_left,
+    .hero_right {
+        width: 100%;
+    }
+
+    .hero_title {
+        font-size: 46px;
+    }
+
+    .btn-primary {
+        padding: 8px 15px;
+    }
+
+    .hero_short_card1,
+    .hero_short_card2 {
+        width: 170px;
+        height: 72px;
+        padding: 0px 5px;
+
+    }
+
+    .hero_short_card1 {
+        top: 10%;
+        left: 53%;
+    }
+
+    .hero_short_card2 {
+        gap: 10px;
+
+    }
+
+    /* habits seciton responsive */
+    .habits_section {
+        margin-top: 35px;
+    }
+
+    .habits_card_main {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .section_title {
+        font-size: 32px;
+    }
+
+    .habits_description {
+        width: 88%;
+    }
+
+    .habits_card {
+        margin-top: 25px;
+    }
+
+    .habits_card p {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    /* run extra mile section */
+    .run_extra_mile_container {
+        display: block;
+    }
+
+    .run_extra_left,
+    .run_extra_right {
+        width: 100%;
+    }
+
+    .run_extra_description {
+        width: 100%;
+    }
+
+    .run_extra_left {
+        margin-bottom: 45px;
+    }
+
+    .run_extra_mile_btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* excercise gallery */
+    .training_head_title {
+        width: 75%;
+    }
+
+    .training_excercise_description {
+        width: 85%;
+        margin-top: 15px;
+    }
+
+    .excercise_photo6,
+    .excercise_photo3 {
+        display: none;
+    }
+
+    .excercise_top {
+        grid-template-columns: 195px 1fr;
+    }
+
+    .excercise_bottom {
+        grid-template-columns: 190px 1fr;
+    }
+
+    /* bmi calculator */
+    .bmi_calculator_content {
+        display: block;
+    }
+
+    .bmi_left,
+    .bmi_right {
+        width: 100%;
+    }
+
+    .bmi_left {
+        margin-bottom: 35px;
+    }
+
+    th,
+    td {
+        padding: 12px 40px;
+    }
+
+    .height_weight input,
+    .age_sex input,
+    .age_sex select {
+        width: 49%;
+    }
+
+    .activity_factor select {
+        width: 99%;
+
+    }
+
+    .bmi_section_head {
+        margin: 78px 0px 78px 45px;
+    }
+
+    /* teem gallery */
+    .team_gallery {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .team_gallery img {
+        height: 320px;
+    }
+
+    /* yoga shoping cards */
+    .yoga_shoping_cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* footer responsive */
+
+    .footer_description {
+        width: 100%;
+    }
+
+    .footer_container {
+        grid-template-areas: "first first first"
+                                "second second second"
+                                "third third third"
+            
+        ;
+    }
+
+}
+
+/* mobile responsive media query */
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+    .navbar {
+        gap: 10px;
+    }
+
+    .menubar {
+        gap: 8px;
+    }
+
+    .menubar li a {
+        padding: 8px 15px;
+    }
+
+    /* hero section responsive*/
+    .hero {
+        display: block;
+    }
+
+    .hero_left,
+    .hero_right {
+        width: 100%;
+    }
+
+    .hero_title {
+        font-size: 76px;
+    }
+
+    .btn-primary {
+        padding: 8px 15px;
+    }
+
+    .hero_short_card1,
+    .hero_short_card2 {
+        width: 170px;
+        height: 72px;
+        padding: 0px 5px;
+
+    }
+
+    .hero_short_card1 {
+        top: 12%;
+        left: 65%;
+    }
+
+    .hero_short_card2 {
+        gap: 10px;
+        left: 14%;
+
+    }
+
+    /* habits section responsive */
+    .habits_card_main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .habits_description {
+        width: 85%;
+    }
+
+    /* run extra mile section */
+    .run_extra_mile_container {
+        gap: 35px;
+    }
+
+    .run_extra_right img {
+        height: 100%;
+    }
+
+    /* excercise gallery */
+    .training_head_title {
+        width: 85%;
+    }
+
+    .training_excercise_description {
+        width: 85%;
+        margin-top: 15px;
+    }
+
+    .excercise_photo6,
+    .excercise_photo3 {
+        display: none;
+    }
+
+    .excercise_top {
+        grid-template-columns: 320px 1fr;
+    }
+
+    .excercise_bottom {
+
+        grid-template-columns: 300px 1fr;
+    }
+
+    /* bmi calculator */
+    .bmi_calculator_content {
+        display: block;
+    }
+
+    .bmi_left,
+    .bmi_right {
+        width: 100%;
+    }
+
+    .bmi_left {
+        margin-bottom: 35px;
+    }
+
+    th,
+    td {
+        padding: 12px 80px;
+    }
+
+    .height_weight input,
+    .age_sex input,
+    .age_sex select {
+        width: 49%;
+    }
+
+    .activity_factor select {
+        width: 99%;
+
+    }
+
+    .bmi_section_head {
+        margin: 78px 0px 78px 45px;
+    }
+
+    /* teem gallery */
+    .team_gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team_gallery img {
+        height: 280px;
+    }
+
+    /* yoga shoping cards */
+    .yoga_shoping_cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* footer responsive */
+    .footer_container {
+        grid-template-areas: "first first"
+            "second third"
+        ;
+
+    }
+    .footer_description{
+        width: 100%;
+    }
+
+    
+}
+
+/* 576 to 992 px display responsive media quer */
+@media screen and (min-width: 769px) and (max-width: 992px) {
+    .navbar {
+        gap: 10px;
+    }
+
+    .menubar {
+        gap: 8px;
+    }
+
+    .menubar li a {
+        padding: 8px 15px;
+    }
+
+    /* hero section responsive*/
+    .hero {
+        display: block;
+    }
+
+    .hero_left,
+    .hero_right {
+        width: 100%;
+    }
+
+    .hero_title {
+        font-size: 76px;
+    }
+
+    .btn-primary {
+        padding: 8px 15px;
+    }
+
+    .hero_short_card1,
+    .hero_short_card2 {
+        width: 170px;
+        height: 72px;
+        padding: 0px 5px;
+
+    }
+
+    .hero_short_card1 {
+        top: 12%;
+        left: 55%;
+    }
+
+    .hero_short_card2 {
+        gap: 10px;
+        left: 15%;
+    }
+
+    /* habits section responsive */
+    .habits_card_main {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .habits_description {
+        width: 85%;
+    }
+
+    /* run extra mile section */
+    .run_extra_mile_container {
+        gap: 25px;
+    }
+
+    .run_extra_right img {
+        height: 100%;
+    }
+
+    /* excercise gallery */
+    .training_head_title {
+        width: 55%;
+    }
+
+    .training_excercise_description {
+        width: 85%;
+        margin-top: 15px;
+    }
+
+
+
+    .excercise_top {
+        grid-template-columns: 250px 1fr 250px;
+    }
+
+    .excercise_bottom {
+        grid-template-columns: 230px 1fr 230px;
+    }
+
+    /* bmi calculator */
+    .bmi_calculator_content {
+        display: block;
+    }
+
+    .bmi_left,
+    .bmi_right {
+        width: 100%;
+    }
+
+    .bmi_left {
+        margin-bottom: 35px;
+    }
+
+    th,
+    td {
+        padding: 12px 100px;
+    }
+
+    .height_weight input,
+    .age_sex input,
+    .age_sex select {
+        width: 49%;
+    }
+
+    .activity_factor select {
+        width: 99%;
+
+    }
+
+    .bmi_section_head {
+        margin: 78px 0px 78px 25px;
+    }
+
+    /* teem gallery */
+    .team_gallery img {
+        height: 280px;
+    }
+
+    /* yoga shoping cards */
+    .yoga_shoping_cards {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* 576 to 992 px display responsive media quer */
+
+/* 993 to 1200 px display responsive */
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    .run_extra_mile_container {
+        gap: 25px;
+    }
+
+    .run_extra_right img {
+        height: 100%;
+    }
+
+    /* excercise gallery */
+    .excercise_top {
+        grid-template-columns: 320px 1fr 320px;
+    }
+
+    .excercise_bottom {
+
+        grid-template-columns: 300px 1fr 300px;
+    }
+}
